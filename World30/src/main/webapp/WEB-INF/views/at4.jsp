@@ -26,9 +26,9 @@
 	
 	<%
 		List<MemberDTO> list = new ArrayList<MemberDTO>();
-		list.add(new MemberDTO("m001", "kim", 22));
-		list.add(new MemberDTO("m002", "lee", 33));
-		list.add(new MemberDTO("m003", "park", 44));
+		list.add(new MemberDTO("m001", "kim", 22, "1"));
+		list.add(new MemberDTO("m002", "lee", 33, "1"));
+		list.add(new MemberDTO("m003", "park", 44, "1"));
 		
 		//위 값 문자열로 만들어서 JSON으로 넘겨주기
 		
