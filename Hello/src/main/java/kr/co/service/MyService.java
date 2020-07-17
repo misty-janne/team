@@ -6,7 +6,8 @@ import org.springframework.stereotype.Controller;
 @Controller
 // --> 서블릿콘텍스트의 component-scan에 입력해야 컨트롤러로 기능을 한다
 public class MyService {
-	
+
+	// 다른사람이 최신 업데이트함 
 
 	// --> 객체는 루트콘텍스트에 입력한다
 	
